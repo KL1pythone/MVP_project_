@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.login_menu{
+    height: 900px;
+    background: url(Login_back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.login_menu .login_form{
+    position: absolute;
+    width: 425.73px;
+    height: 408px;
+    margin-top: 249px;
+    margin-left: 590.63px;
+    
+    background: #FFFFFF;
+    border-radius: 10px;
+    z-index: 10;
+}
+
+.login_menu .login_back_1{
+    position: absolute;
+    width: 425.74px;
+    height: 408px;
+    margin-top: 260px;
+    margin-left: 528.63px;
+
+    background: #004A8F;
+    border-radius: 10px;
+    transform: matrix(1, -0.1, 0.1, 1, 0, 0);
+    z-index: 1;
+}
+
+.login_menu .login_back_2{
+    position: absolute;
+    width: 425.73px;
+    height: 408px;
+    margin-top: 267.35px;
+    margin-left: 581.59px;
+    
+    background: rgba(150, 196, 255, 0.5);
+    border-radius: 10px;
+    transform: matrix(1, 0.06, -0.06, 1, 0, 0);
+}
+
+
+.succ_img{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 118px;
+}
+
+.succ_h{
+    position: absolute;
+    width: 269px;
+    height: 64px;
+    margin-top: 190px;
+    margin-left: 140px;
+}
+
+.succ_descr{
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 139.5%;
+    text-align: center;
+    color: #004A8F;
+}
+
+.succ_btn{
+    margin-top: 457px;
+    margin-left: 79px;
+}
+
+.form{
+    width: 100%;
+    padding: 25px;
+    font-size: 18px;
+
+    position: absolute;
+}
+
+.img_menu{
+    width: 61.96px;
+    height: 53px;
+    margin-left: 153px;
+    margin-bottom: 32px;
+}
+
+.login_input{
+    width: 375.77px;
+    height: 52px;
+    padding: 13px;
+    
+    border: 1px solid #004A8F;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-bottom: 21px;
+}
+
+.form_btn{
+    cursor: pointer;
+    border:none;
+    width: 375.77px;
+    height: 52px;
+    background: #E05A00;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 15px;
+    margin-bottom: 11px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.l_register.error{
+    border: 1px solid #DE4444;
+}
+
+.email.error{
+    border: 1px solid #DE4444;
+}
+
+
+
+
