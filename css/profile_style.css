@@ -5,11 +5,17 @@
 }
 
 .profile_menu{
-    height: 100vh;
+    min-height: 100vh;
     background: url(Декор.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.book_menu{
+    position: absolute;
+    height: 26000px;
+    background: radial-gradient(111.52% 352.91% at -5.18% 102.94%, #96C4FE 31.54%, rgba(150, 196, 254, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;    
 }
 
 .prof_img{
@@ -75,4 +81,73 @@
     font-weight: 500;
     font-size: 18px;
     color: #FFFFFF;
+}
+
+.book_btn_1{
+    margin-top: 280px;
+    margin-left: 102px;
+    position: absolute;
+    width: 230px;
+    height: 41.06px;
+    background: #004A8F;
+    border-radius: 10px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.book_main_cont{
+    width: 1082px;
+    height: 25673px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow:
+       inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+    margin-top: 172px;
+    margin-left: 458px;
+}
+
+.title_book{
+    position: absolute;
+    width: 1079.86px;
+    height: 662px;
+    margin-top: 13px;
+    margin-left: -17px;
+}
+
+.title_2_book{
+    position: absolute;
+    width: 962px;
+    height: 351px;
+    margin-top: 503px;
+    margin-left: 60px;
+}
+
+.func_book{
+    position: absolute;
+    width: 962px;
+    height: 322px;
+    margin-top: 914px;
+    margin-left: 60px;
+}
+
+.class_book{
+    position: absolute;
+    width: 966px;
+    height: 5517px;
+    margin-top: 1296px;
+    margin-left: 57px;
+}
+
+.amino_book{
+    position: absolute;
+    width: 969px;
+    height: 8017px;
+    margin-top: 6873px;
+    margin-left: 58px;
 }
